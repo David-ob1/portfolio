@@ -36,11 +36,71 @@ header{
 
 }
 .nav-item{
-    font-size: 15px;
+    font-size: 17px;
     text-align: center!important;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 .nav-item a{
   padding: 3.5px;
+}
+
+.social > .social_item{
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+/* .social > .social_item :hover{
+  color: white;
+} */
+
+.switch{
+    width: 60px;
+    height: 30px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 100px;
+    border: #333 solid 2px;
+    background-color: #132b41;
+}
+
+.switch i {
+    font-size: 1rem;
+    color:#fdc21c;
+}
+
+.navbar-nav li:last-child::before{
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #fff;
+    border: solid thin #000;
+    left: 0;
+    right: unset;
+    
+}
+
+.navbar-nav li:last-child.active::before{
+    right: 0;
+    left: unset;
+    border: solid thin #fff;
+}
+
+.navbar-nav li:last-child.active i:first-child{
+    color:#fff
+}
+
+.navbar-nav li:last-child.active{
+    background-color: chocolate;
+    border: solid 2px #fff;
 }
 
 .navbar-brand:hover{
@@ -79,4 +139,16 @@ header{
 .img__david{
     margin: 10px;
     width: 60%;
+    border:thin solid white;
+    box-shadow: 0px 0px 6px 1px white;
 }
+
+.title{
+    margin-top: 3px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: #525252;
+    text-decoration-thickness: 4px;
+}
+

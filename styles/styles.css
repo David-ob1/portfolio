@@ -114,6 +114,7 @@ header {
   justify-content: center;
 }
 
+
 /* darle esto a david vazquez */
 /* .container{
     display: flex;
@@ -155,6 +156,13 @@ header {
   text-decoration-color: #525252;
   text-decoration-thickness: 4px;
 }
+
+
+.h2__secondary{
+  font-size: 25px;
+}
+
+
 
 .skills {
   font-size: 35px;

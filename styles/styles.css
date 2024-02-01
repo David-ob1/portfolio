@@ -158,8 +158,11 @@ header {
 
 .skills {
   font-size: 35px;
-  color: orangered;
+  color: #ddd;
 }
+#html5 {
+    color: orangered;
+  }
 
 #javaScript {
   color: #fdc21c;
@@ -187,7 +190,4 @@ header {
 
 #db {
     color:lightskyblue;
-  }
-  #github {
-    color:#ddd;
   }

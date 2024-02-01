@@ -1,123 +1,117 @@
+:root {
+  --main-color-white: #fff;
+  --main-bg-black: #202023;
 
-:root{
-    --main-color-white:#fff;
-    --main-bg-black:#202023;
-
-    --border-btn-nav:rgba(255, 255, 255, 0.1);
-    --color-btn-nav:rgba(255, 255, 255, 0.888);
+  --border-btn-nav: rgba(255, 255, 255, 0.1);
+  --color-btn-nav: rgba(255, 255, 255, 0.888);
 }
 
-
-
-header{
-    margin-bottom:3.7rem ;
+header {
+  margin-bottom: 3.7rem;
 }
 
-.layout{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: var( --main-bg-black);
-    color: var(--main-color-white);
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--main-bg-black);
+  color: var(--main-color-white);
 }
 
-.main__nav{
-    background-color: #20202380;
-    width: 100%;
-    /* position: fixed; */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+.main__nav {
+  background-color: #20202380;
+  width: 100%;
+  /* position: fixed; */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
-.navbar-brand{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: arial;
-
+.navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: arial;
 }
-.nav-item{
-    font-size: 17px;
-    text-align: center!important;
+.nav-item {
+  font-size: 17px;
+  text-align: center !important;
 }
-.social{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+.social {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
-.nav-item a{
+.nav-item a {
   padding: 3.5px;
 }
 
-.social > .social_item{
-    font-size: 17px;
-    padding: 0 10px;
+.social > .social_item {
+  font-size: 17px;
+  padding: 0 10px;
 }
 
 /* .social > .social_item :hover{
   color: white;
 } */
 
-.novedad{
-    padding: 3.5px;
-    display: flex;
-    justify-content: center;
+.novedad {
+  padding: 3.5px;
+  display: flex;
+  justify-content: center;
 }
 
-.switch{
-    width: 65px;
-    height: 30px;
-    padding: 0 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    border-radius: 100px;
-    border: #333 solid 2px;
-    background-color: #132b41;
+.switch {
+  width: 65px;
+  height: 30px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 100px;
+  border: #333 solid 2px;
+  background-color: #132b41;
 }
 
 .switch i {
-    font-size: 1rem;
-    color:#fdc21c;
+  font-size: 1rem;
+  color: #fdc21c;
 }
 
-.navbar-nav li:last-child::before{
-    content: "";
-    position: absolute;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    background: #fff;
-    border: solid thin #000;
-    left: 0;
-    right: unset;
-    
+.navbar-nav li:last-child::before {
+  content: "";
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: #fff;
+  border: solid thin #000;
+  left: 0;
+  right: unset;
 }
 
-.navbar-nav li:last-child.active::before{
-    right: 0;
-    left: unset;
-    border: solid thin #fff;
+.navbar-nav li:last-child.active::before {
+  right: 0;
+  left: unset;
+  border: solid thin #fff;
 }
 
-.navbar-nav li:last-child.active i:first-child{
-    color:#fff
+.navbar-nav li:last-child.active i:first-child {
+  color: #fff;
 }
 
-.navbar-nav li:last-child.active{
-    background-color: chocolate;
-    border: solid 2px #fff;
+.navbar-nav li:last-child.active {
+  background-color: chocolate;
+  border: solid 2px #fff;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
   text-decoration: underline;
-    
 }
 
-.navbar-nav{
-    margin: 0!important;
-    width: 100%;
-    justify-content:center;
+.navbar-nav {
+  margin: 0 !important;
+  width: 100%;
+  justify-content: center;
 }
 
 /* darle esto a david vazquez */
@@ -128,33 +122,65 @@ header{
     margin:0 10% ; 
 } */
 
-.presentation{
-    display: flex;
-    flex-direction: column;
-   
-    align-items: center;
-    justify-content: center;
+.presentation {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
 }
 
-.presentation h3{
-    font-family:sans-serif;
-    font-size: 20px;
-    line-height: 1.4;
+.presentation h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
 }
 
-.img__david{
-    margin: 10px;
-    width: 60%;
-    border:thin solid white;
-    box-shadow: 0px 0px 6px 1px white;
+.text__info {
+  text-align: justify;
 }
 
-.title{
-    margin-top: 3px;
-    font-size: 20px;
-    text-decoration: underline;
-    text-underline-offset: 6px;
-    text-decoration-color: #525252;
-    text-decoration-thickness: 4px;
+.img__david {
+  margin: 10px;
+  width: 60%;
+  border: thin solid white;
+  box-shadow: 0px 0px 6px 1px white;
 }
 
+.title {
+  margin-top: 3px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #525252;
+  text-decoration-thickness: 4px;
+}
+
+.skills {
+  font-size: 35px;
+  color: orangered;
+}
+
+#javaScript {
+  color: #fdc21c;
+}
+#java {
+  color: #e87408;
+}
+#spring-boot {
+  color: #72b545;
+}
+#css3 {
+  color: #214ce5;
+}
+
+#bootstrap {
+  color: #7818f7;
+}
+
+#vuejs {
+  color: #47ba87;
+}
+#postgresql {
+  color: #396c94;
+}

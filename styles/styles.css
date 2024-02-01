@@ -191,3 +191,13 @@ header {
 #db {
     color:lightskyblue;
   }
+
+  .contact p{
+    margin-bottom: 2px;
+  }
+
+  .contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }

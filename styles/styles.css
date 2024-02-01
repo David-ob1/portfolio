@@ -184,3 +184,10 @@ header {
 #postgresql {
   color: #396c94;
 }
+
+#db {
+    color:lightskyblue;
+  }
+  #github {
+    color:#ddd;
+  }

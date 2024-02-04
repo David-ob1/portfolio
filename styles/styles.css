@@ -54,12 +54,15 @@ header {
 } */
 
 .novedad {
+  transition: ease .4s all;
   padding: 3.5px;
   display: flex;
   justify-content: center;
 }
 
+
 .switch {
+  cursor: pointer;
   width: 65px;
   height: 30px;
   padding: 0 5px;
@@ -70,6 +73,7 @@ header {
   border-radius: 100px;
   border: #333 solid 2px;
   background-color: #132b41;
+  transition: all .4s ease;
 }
 
 .switch i {
@@ -87,6 +91,7 @@ header {
   border: solid thin #000;
   left: 0;
   right: unset;
+  transition: ease .4s all;
 }
 
 .navbar-nav li:last-child.active::before {
@@ -208,4 +213,29 @@ header {
     text-decoration: none;
     color: white;
     font-size: 17px;
+  }
+
+
+
+  /* ligh mode */
+
+  body.active .layout {
+    background: #f0e7db;
+  }
+
+  body.active .main__nav {
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  body.active .layout ,
+  body.active article a ,
+  body.active article .skills
+   {
+    color: var(--main-bg-black);
+  }
+
+  body.active .img__david {
+    border: thin solid var(--main-bg-black);
+    box-shadow: 0px 0px 6px 1px var(--main-bg-black);
+
   }
